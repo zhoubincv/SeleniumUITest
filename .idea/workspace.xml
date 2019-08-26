@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="334d3bb8-e160-45ea-b1f2-e08e06fbe463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SeleniumUITest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/Page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Page/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectDirPath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RegisterConfig.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/ReadIni.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/CasesDatas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handllers/RegisterHandler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reports/自动化测试报告20190826.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runall.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/registercases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/registercases/test_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testfiles/5itestcases.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/runall.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="238">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -159,8 +139,8 @@
         <option value="$PROJECT_DIR$/testcases/registercases/test_register.py" />
         <option value="$PROJECT_DIR$/ProjectDirPath.py" />
         <option value="$PROJECT_DIR$/common/ReadIni.py" />
-        <option value="$PROJECT_DIR$/runall.py" />
         <option value="$PROJECT_DIR$/datas/CasesDatas.py" />
+        <option value="$PROJECT_DIR$/runall.py" />
       </list>
     </option>
   </component>
@@ -388,8 +368,16 @@
       <workItem from="1566441829225" duration="19469000" />
       <workItem from="1566543358031" duration="26421000" />
       <workItem from="1566708865131" duration="42495000" />
-      <workItem from="1566826517484" duration="6428000" />
+      <workItem from="1566826517484" duration="6678000" />
     </task>
+    <task id="LOCAL-00001" summary="UI自动化框架，支持数据驱动">
+      <created>1566833375447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566833375447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -425,10 +413,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94813000" />
+    <option name="totallyTimeSpent" value="95063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25963598" />
@@ -455,6 +444,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="UI自动化框架，支持数据驱动" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI自动化框架，支持数据驱动" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SeleniumUITest$Unittests_for_test_register_Register_test_register.coverage" NAME="Unittests for test_register.Register.test_register Coverage Results" MODIFIED="1566812623997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcases/Register" />
@@ -637,8 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runall.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
