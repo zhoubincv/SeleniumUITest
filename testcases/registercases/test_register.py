@@ -1,7 +1,8 @@
 import unittest
 from datas.CasesDatas import CasesDatas
 import ddt
-from handllers.RegisterHandler import RegisterHandler
+from handllers.RegisterPage import RegisterPage
+from common.LogUtil import log_recorder
 
 
 CASE_SHEET = "registercases"
@@ -10,7 +11,8 @@ case_datas = CasesDatas().get_row_values(CASE_SHEET)
 class TestRegister(unittest.TestCase):
 
     def setUp(self) -> None:
-        self.register_handler = RegisterHandler("http://www.5itest.cn/register", "chrome")
+        log_recorder.get_logger().debug("----------------------> 测试开始 <----------------------")
+        self.register_handler = RegisterPage("http://www.5itest.cn/register", "chrome")
 
     @ddt.data(*case_datas)  # 参数化注册信息
     @ddt.unpack
@@ -21,6 +23,8 @@ class TestRegister(unittest.TestCase):
 
     def tearDown(self) -> None:
         self.register_handler.close()
+        log_recorder.get_logger().debug("----------------------> 测试结束 <----------------------")
+        log_recorder.close()
 
 
 if __name__ == '__main__':

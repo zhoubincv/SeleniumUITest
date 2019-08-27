@@ -2,6 +2,8 @@ from selenium import webdriver
 from common.ReadIni import ReadIni
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.common.exceptions import *
+from common.LogUtil import log_recorder
+import time
 
 
 class Page:
@@ -14,7 +16,7 @@ class Page:
 
     # 根据需要的浏览器类型创建相应的driver
     @staticmethod
-    def get_driver(driver_type):
+    def get_driver(driver_type) -> webdriver:
 
         if driver_type == "chrome":
             return webdriver.Chrome()
@@ -52,8 +54,8 @@ class Page:
                     return self.driver.find_element_by_css_selector(locate_mode.split("->")[1])
                 elif locate_mode.split("->")[0] == "tag":
                     return self.driver.find_element_by_tag_name(locate_mode.split("->")[1])
-            except WebDriverException as e:
-                print(e)
+            except NoSuchElementException as e:
+                log_recorder.get_logger().debug(e)
                 return None
             return None
 
@@ -67,4 +69,3 @@ class Page:
 
 if __name__ == '__main__':
     pass
-
