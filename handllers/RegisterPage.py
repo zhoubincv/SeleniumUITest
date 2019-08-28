@@ -1,7 +1,7 @@
 from Page.Page import Page
 import time
 
-
+# 这个是dev分支
 class RegisterPage(Page):
 
     def __init__(self, url, driver_type):
