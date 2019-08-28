@@ -1,13 +1,11 @@
 from Page.Page import Page
 import time
 
-# 这个是dev分支
+
 class RegisterPage(Page):
 
     def __init__(self, url, driver_type):
         super().__init__(url, driver_type)
-        # self.driver_type = driver_type
-        # self.page = Page(url, driver_type)
         self.REGISTER_SECTION = "RegisterElements"
         self.USER_NAME_OPTION = "username"
         self.USER_EMAIL_OPTION = "useremail"
@@ -64,6 +62,3 @@ class RegisterPage(Page):
 
 if __name__ == '__main__':
     pass
-    # register_handler = RegisterHandler("http://www.5itest.cn/register", "chrome")
-    # register_handler.regist("", "", "", "")
-    # register_handler.close()
