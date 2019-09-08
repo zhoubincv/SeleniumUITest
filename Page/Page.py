@@ -1,9 +1,9 @@
 from selenium import webdriver
+
 from common.ReadIni import ReadIni
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.common.exceptions import *
 from common.LogUtil import log_recorder
-import time
 
 
 class Page:
